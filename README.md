@@ -3,6 +3,9 @@ All In One Knowledge System by AI, you can write ppt、doc、whiteboard、draw e
 
 The Demo: http://stunde.cn/
 
+![image](https://github.com/user-attachments/assets/20c586b8-d1b7-4c8a-9503-fe66c9fe0ec0)
+
+
 
 ## The docs
 - [gamma编辑器效果](https://mp.weixin.qq.com/s/v7aN3mRW4TXyW7tf5FhYEg)
