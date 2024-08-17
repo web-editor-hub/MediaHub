@@ -1,7 +1,7 @@
 # MediaHub
 All In One Knowledge System by AI, you can write ppt、doc、whiteboard、draw etc。Present you idea to people simple. Like Gamma.
 
-The Demo: http://stunde.cn/
+The Demo: [MediaHub](https://mediahub.stunde.cn/)
 
 ![image](https://github.com/user-attachments/assets/20c586b8-d1b7-4c8a-9503-fe66c9fe0ec0)
 
