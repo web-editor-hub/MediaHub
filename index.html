@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/mediahub.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediaHub</title>
+  <script type="module" crossorigin src="/assets/index-537953bb.js"></script>
+  <link rel="stylesheet" href="/assets/index-b0f59a88.css">
+</head>
+
+<body>
+  <div id="root" class="root"></div>
+  
+  <script>
+    fetch("https://yinglie.chinamartyrs.gov.cn/web-api//api/martyrs/search", {
+      "headers": {
+        "accept": "application/json, text/javascript, */*; q=0.01",
+        "accept-language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
+        "authorization": "830547038d754d6da19c6524e04b0400",
+        "autograph": "f1f0f103e23773a144b5552caeca917a",
+        "cache-control": "no-cache",
+        "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "pragma": "no-cache",
+        "priority": "u=1, i",
+        "sec-ch-ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "timestamp": "1719628596187"
+      },
+      "referrer": "https://www.chinamartyrs.gov.cn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": "mmdrName=%22%22&pageNum=1&pageSize=100&Params=%7B%22beginTime%22%3A%22%22%2C%22endTime%22%3A%22%22%7D&mmdrShengId=",
+      "method": "POST",
+      "mode": "cors",
+      "credentials": "include"
+    }).then(res => {
+      return res.json();
+    }).then(data => {
+      console.log(data);
+    });
+  </script>
+</body>
+
+</html>
